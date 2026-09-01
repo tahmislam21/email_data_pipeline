@@ -1,0 +1,1 @@
+{"_invocation_id": "ea46fd6c-ca01-4e98-97cb-45a0d3cd4c25", "linked": {"0": {"name": "source.email_project.raw.gmail_data", "type": "source", "succ": [1]}, "1": {"name": "model.email_project.stg_gmail_data", "type": "model"}}}

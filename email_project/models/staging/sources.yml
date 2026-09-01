@@ -1,0 +1,8 @@
+version: 2
+sources:
+  - name: raw
+    database: email_db
+    schema: raw
+
+    tables:
+      - name: gmail_data
