@@ -1,5 +1,7 @@
 # Email Extraction Project
 
+![Pipeline Architecture](images/Project%20Planning%20and%20Architecture.png)
+
 A data pipeline that extracts emails from Gmail using the Gmail API, loads them into Snowflake, transforms them with dbt, and visualizes the results in Power BI.
 
 ## Overview
@@ -95,5 +97,23 @@ dbt run
 - [ ] Automate CSV upload to Snowflake (currently manual)
 - [ ] Schedule extraction + dbt runs (e.g., via Airflow or a cron job)
 - [ ] Add tests for dbt models
+
+
+### Power BI Dashboard
+![Power BI Dashboard](images/Dashboard.png)
+
+### Python Email Extractor
+![Pipeline Architecture](images/Python%20Email%20Extractor.png)
+
+### Snowflake 
+![Snowflake Tables](images/Snowflake.png)
+
+### Gmail Extraction
+![Extract Email](images/Gmail%20Extraction.png)
+
+
+
+
+
 
 
